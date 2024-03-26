@@ -1,15 +1,12 @@
 //? error handle
 
-console.log("Hi");
-const x = 5;
-
+let firstName = "Jibana";
+let lastName = "Bam";
+console.log(`My name is ${firstName} ${lastName}`);
+const x = 6;
 try {
-  x = 7;
+  x = 2;
 } catch (error) {
   console.log(error.message);
 }
-
-let firstName = "Jibana";
-console.log(`My name is ${firstName}`);
-
-console.log(`I am from Nepal`);
+console.log(`I am learning MERN`);
